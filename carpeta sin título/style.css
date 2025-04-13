@@ -3,15 +3,19 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: url('fondo-pub.jpg') no-repeat center center fixed;
+  background: url('fondo-pub.png.') no-repeat center center fixed;
   background-size: cover;
-  color: white;
+  color: black;
   text-align: center;
 }
 
 .fondo {
   backdrop-filter: blur(4px);
-  padding: 40px 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* oscurece un poco */
+  padding: 40px;
+  border-radius: 20px;
+  margin: 20px;
+}
 }
 
 .logo {
